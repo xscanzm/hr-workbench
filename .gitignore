@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+dist/
+.promo-frames/
+.workbuddy/
+*.genie
+*.mp4
+.DS_Store
+Thumbs.db

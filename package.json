@@ -1,0 +1,15 @@
+{
+  "name": "hr-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HR 工作台 · 皮皮未来",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "node build.js && wrangler deploy"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "javascript-obfuscator": "5.10.0",
+    "wrangler": "4.158.0"
+  }
+}

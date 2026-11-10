@@ -1,0 +1,17 @@
+/* =========================================================
+   外壳 · 页面重置 + 主题宿主
+   只有一个主题（HQ 智能总部），不再需要主题切换面板。
+   ========================================================= */
+:root { color-scheme: dark; }
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b0907;
+  color: #f4ece0;
+  font: 14px -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+  overflow: hidden;
+}
+[hidden] { display: none !important; }
+.th-host { position: relative; width: 100%; height: 100%; }
